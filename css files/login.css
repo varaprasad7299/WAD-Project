@@ -1,0 +1,139 @@
+#logincontainer{
+    width: 5in;
+    height: 6in;
+    background-color: #181B20;
+    position: fixed;
+    top:1.1in;
+    left: 5.4in;
+    z-index: 100;
+    color: white;
+   
+    border-radius: 27px;
+    display: none;
+}
+.logincontainer1{
+    height: 1cm;
+    
+}
+.logincontainer1 h2{
+    position: relative;
+    left:2in;
+    top:10px;
+}
+.logincontainer2{
+     height: 5cm;
+    max-height:max-content;
+}
+.logincontainer21{
+    height: 3cm;
+    width: 9cm;
+    border-radius: 20px;
+    position: relative;
+    left:0.7in;
+    top:0.8cm;
+}
+
+.logincontainer21 button{
+    height: 1cm;
+    width: 9cm;
+    border:none;
+    border-radius: 20px;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 0.8cm;
+    background:#181B20;
+    border: 1px solid white;
+}
+.logincontainer23{
+    position: relative;
+    left: 5.7cm;
+    top: 1.3cm;
+    font-size: 28px;
+}
+
+.logincontainer3{
+    height: 5cm;
+    position: relative;
+    left: 0.2cm;
+   
+}
+.logincontainer31{
+    height: 1.3cm;
+    width: 9cm;
+    border: 1px solid white;
+    position: relative;
+    left: 1.8cm;
+    top:0.7cm;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.logincontainer32{
+    height: 1.3cm;
+    width: 9cm;
+    border: 1px solid white;
+    position: relative;
+    left: 1.8cm;
+    top:1cm;
+    border-radius: 5px;
+}
+.logincontainer31 input{
+   background: transparent;
+   border: none;
+   outline: none;
+   position: relative;
+   left: 12px;
+   width: 100%;
+   height: 100%;
+   color: white;
+}
+.logincontainer32 input{
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 12px;
+    width: 100%;
+    height: 100%;
+    color: white;
+ }
+.logincontainer33{
+    position: relative;
+    top:1.4cm;
+    left: 1.8cm;
+}
+::placeholder{
+    color: white;
+
+}
+.logincontainer4{
+    height: 1cm;
+   
+}
+.logincontainer4 button{
+    height: 1cm;
+    width: 7cm;
+    background: fuchsia;
+    border-radius: 20px;
+    position:relative;
+    left: 3cm;
+    top:9px;
+}
+.logincontainer5{
+    height: 3cm;
+} 
+.logincontainer5 p{
+    position: relative;
+    top:1cm;
+    left:4cm;
+    
+}
+
+.logincontainer5 p:nth-child(2){
+    position: relative;
+    top:1.3cm;
+    left:5.5cm;
+    cursor: pointer;
+}
+.logincontainer5 p:nth-child(2){
+    text-decoration: underline;
+}

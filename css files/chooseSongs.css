@@ -1,0 +1,266 @@
+.csNextContent1{
+    background:#eff9f9;
+    min-height: 9in;
+    height: max-content;
+    background: linear-gradient(#eff9f9,#23d3d3,white);
+}
+
+.csNextContent1 h1{
+    width: max-content;
+    position: relative;
+    left: 2in;
+    top :1.3in
+}
+.searchBar{
+    width: max-content;
+    position: relative;
+    top: 2in;
+    left: 4in;
+    width: 4in;
+    height: 20px;
+    
+}
+.searchbar{
+    width: 700px;
+    background:rgba(139, 169, 183, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 7px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    border: 1px solid black;
+}
+.searchbar input{
+    background:transparent;
+    flex:1;
+    border:0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #03021d;
+}
+::placeholder{
+    color: #14142392;
+}
+.searchbar button img{
+   width: 25px;
+   
+}
+.searchbar button{
+    border:0;
+    border-radius: 30px;
+    width: 110px;
+    height: 60px;
+    background: #f702c6;
+    cursor: pointer;
+    
+ }
+.csNextContent11{
+    position: relative;
+    top: 3in;
+    left: 4in;
+    width: 8in;
+    height: 3.4in;
+    overflow:auto;
+    background-color: rgba(248, 249, 250);
+    opacity: 0.8;
+    border-radius: 30px;
+    padding:20px;
+    border: 5px solid black;
+    box-shadow:-10px -10px 4px #03020b;
+
+}
+.csNextContent11::-webkit-scrollbar {
+    display: none;
+}
+.csNextContent11 .tags{
+    width:max-content;
+    height: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border: solid 3px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.tags:hover{
+    background-color: rgb(77, 9, 123);
+    border: solid 3px rgb(42, 73, 53);
+    color: azure;
+    transition-duration: 0.7s;
+}
+.getSongs{
+    position:relative;
+    top:3.5in;
+    left:9in;
+    min-width: 220px;
+    width:max-content;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(241, 61, 202);
+    border: solid 2px;
+    border-radius: 25px;
+    font-size: 30px;
+    box-shadow: 10px 10px 15px black;
+}
+.getSongs:hover{
+    transform: translate(7px,10px);
+    box-shadow: -10px -10px 15px black;
+    transition-duration: 1s;
+}
+.csNextContent2{
+    background:#eff9f9;
+    height: 14in;
+    display: none;
+    
+}
+.player-box{
+    width: 13in;
+    height: 4.5in;
+    background: white;
+    border:0.8in solid black;
+    border-radius: 50px;
+    position: relative;
+    top: 1in;
+    left: 1.4in;
+    display: flex;
+    margin-bottom: 1in;
+}
+.player-box:hover{
+    transform: scale(1.02);
+    transform: translate(-7px,-10px);
+    box-shadow: 10px 10px 15px black;
+    transition: 1s;
+}
+
+.player-box1{
+    width:5cm;
+    height: 5cm;
+    position: relative;
+    top: 1.2cm;
+    left: 2cm;
+}
+.player-box1 img{
+    width:5cm;
+    height: 5cm;
+    border-radius: 30px;
+    
+}
+.player-box2{
+    width:14cm;
+    height: 5cm;
+    
+    position: relative;
+    left:3cm;
+    top: 1.5cm;
+}
+.player-box21{
+    width: 10cm;
+    height: 3.5cm;
+   
+}
+.player-box21 p:nth-child(1){
+   font-size: 40px;
+}
+.player-box21 p:nth-child(2){
+    position: relative;
+    top:0.5cm;
+    font-size: 17px;
+ }
+.player-box22{
+    width: 6cm;
+    height: 1.5cm;
+    display: flex;
+    
+}
+.player-box22 img{
+    margin-left: 37px;
+    width: 20px;
+    height: 20px;
+}
+.player-box22 .playbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f702c6;
+    position: relative;
+    left: 20px;
+    bottom:5px;
+}
+.playbtn img{
+    position: relative;
+    left:-29px;
+    top: 5px;
+}
+.player-box3{
+    width:5cm;
+    height: 2cm;
+    position: relative;
+    top: 1.7cm;
+    left: 4cm;
+}
+
+.player{
+    width: 10in;
+    height: 1in;
+    position: relative;
+    left: 2in;
+    top:1in;
+    display: flex;
+    margin-bottom: 0.3in;
+}
+.player:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.player1{
+
+}
+.player1 img{
+    border-radius: 20px;
+}
+.player2{
+   position: relative;
+   top:14px;
+   left:18px;
+}
+.player3{
+   position: relative;
+   top: 42px;
+   left:1in;
+   display: flex;
+}
+.player3 img{
+    margin-left: 37px;
+    width: 20px;
+    height: 20px;
+}
+
+.player3 .playbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f702c6;
+    position: relative;
+    left: 20px;
+    bottom:5px;
+}
+
+.player3 hr{
+    width: 4in;
+    height: 5px;
+    background: #03020b;
+    position: relative;
+    top:10px;
+    left:1in;
+}
+.player4{
+    position: relative;
+    top: 42px;
+    left: 2.4in;
+}
+.player4 img{
+   margin-right: 20px;
+}

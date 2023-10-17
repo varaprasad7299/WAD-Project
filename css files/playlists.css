@@ -1,0 +1,257 @@
+.plcontent1{
+    height: 2in;
+    display:flex;
+    background:#f045e2;
+    background: linear-gradient(#eff9f9,#f045e2);
+}
+.plcontent11{
+     position: relative;
+     top:1.2in;
+     left: 2in;
+     font-size: 25px;
+     letter-spacing: 5px;
+}
+.searchBar{
+    width: max-content;
+    position: relative;
+    top: 1in;
+    left: 6.8in;
+    width: 4in;
+    height: 20px;
+    
+}
+.searchbar{
+    width: 400px;
+    background:rgba(59, 173, 225, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 7px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.searchbar input{
+    background:transparent;
+    flex:1;
+    border:0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #171190;
+}
+::placeholder{
+    color: #504e6c;
+}
+.searchbar button img{
+   width: 25px;
+   
+}
+.searchbar button{
+    border:0;
+    border-radius: 30px;
+    width: 110px;
+    height: 60px;
+    background: #f702c6;
+    cursor: pointer;
+    
+ }
+ .plcontent2{
+       height: 9in;
+       background:#eff9f9;
+       background: linear-gradient(#f045e2,#eff9f9);
+ }
+ .plcontent21{
+    width: 13in;
+    height: 8in;
+    position: relative;
+    top:1in;
+    left: 1in;
+    overflow: auto;
+   
+ }
+ .plcontent211{
+    width: 2.3in;
+    height: 3in;
+    margin: 1cm;
+    border-radius: 20px;
+    display:inline-block;
+    border: 3px solid black;
+    background-color: rgb(220, 223, 215);
+    box-shadow: 10px 10px 7px black;
+ }
+ 
+ .plcontent211 p{
+    position: relative;
+    top:29px;
+    left:20px;
+    font-size: 18px;
+    font-weight: 800;
+   
+ }
+ .mubg{
+    height: 1cm;
+    width: 1cm;
+    position: relative;
+    left:4.5cm;
+    border-radius: 50%;
+    
+ }
+ .mubg:hover{
+   cursor:pointer;
+    transform: scale(1.4);
+    border-radius: 50%;
+    border:1px solid;
+    transition-duration: 1s;
+ }
+
+
+ /* pl player start*/
+
+
+
+ .plPlayer{
+    background:#eff9f9;
+    height: 14in;
+    display: none;
+    
+}
+.player-box{
+    width: 13in;
+    height: 4.5in;
+    background: white;
+    border:0.8in solid black;
+    border-radius: 50px;
+    position: relative;
+    top: 1in;
+    left: 1.4in;
+    display: flex;
+    margin-bottom: 1in;
+}
+
+.player-box1{
+    width:5cm;
+    height: 5cm;
+    position: relative;
+    top: 1.2cm;
+    left: 2cm;
+}
+.player-box1 img{
+    width:5cm;
+    height: 5cm;
+    border-radius: 30px;
+    
+}
+.player-box2{
+    width:14cm;
+    height: 5cm;
+    
+    position: relative;
+    left:3cm;
+    top: 1.5cm;
+}
+.player-box21{
+    width: 10cm;
+    height: 3.5cm;
+   
+}
+.player-box21 p:nth-child(1){
+   font-size: 40px;
+}
+.player-box21 p:nth-child(2){
+    position: relative;
+    top:0.5cm;
+    font-size: 17px;
+ }
+.player-box22{
+    width: 6cm;
+    height: 1.5cm;
+    display: flex;
+    
+}
+.player-box22 img{
+    margin-left: 37px;
+    width: 20px;
+    height: 20px;
+}
+.player-box22 .playbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f702c6;
+    position: relative;
+    left: 20px;
+    bottom:5px;
+}
+.playbtn img{
+    position: relative;
+    left:-29px;
+    top: 5px;
+}
+.player-box3{
+    width:5cm;
+    height: 2cm;
+    position: relative;
+    top: 1.7cm;
+    left: 4cm;
+}
+
+.player{
+    width: 10in;
+    height: 1in;
+    position: relative;
+    left: 2in;
+    top:1in;
+    display: flex;
+    margin-bottom: 0.3in;
+.player1{
+
+}
+.player1 img{
+    border-radius: 20px;
+}
+.player2{
+   position: relative;
+   top:14px;
+   left:18px;
+}
+.player3{
+   position: relative;
+   top: 42px;
+   left:1in;
+   display: flex;
+}
+.player3 img{
+    margin-left: 37px;
+    width: 20px;
+    height: 20px;
+}
+
+.player3 .playbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f702c6;
+    position: relative;
+    left: 20px;
+    bottom:5px;
+}
+
+.player3 hr{
+    width: 4in;
+    height: 5px;
+    background: #03020b;
+    position: relative;
+    top:10px;
+    left:1in;
+}
+.player4{
+    position: relative;
+    top: 42px;
+    left: 2.4in;
+}
+.player4 img{
+   margin-right: 20px;
+}
+
+
+
+/*pl player end*/
