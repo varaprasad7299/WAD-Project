@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css files/home.css">
+    <link rel="stylesheet" href="../css files/login.css">
+    <link rel="stylesheet" href="../css files/chooseSongs.css">
+    <script src="../scripts/myScript.js"></script>
+</head>
+<body>
+    <div id="logincontainer">
+        <div class="logincontainer1">
+             <h2>Sign In</h2>
+        </div>
+        <div class="logincontainer2">
+            <div class="logincontainer21">
+                <button>Continue with Google</button>
+                <button>Continue with Apple</button>
+            </div>
+            <div class="logincontainer23">
+               or 
+            </div>
+            
+        </div>
+        <div class="logincontainer3">
+            <div class="logincontainer31">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="logincontainer32" >
+                <input type="password" placeholder="password">
+            </div>
+            <div class="logincontainer33">
+                <p style="text-decoration: underline;">forgot password ?</p>
+            </div>
+        </div>
+        <div class="logincontainer4">
+           <button type="submit">SIGN IN</button>
+        </div>
+        <div class="logincontainer5">
+            <p>Don't have an Account ? </p>
+            <p>sign up</p>
+        </div>
+    </div>
+    <div class = "navigation-bar">
+        <div class="logo">
+            <a href="../index.html">MU<span style="color: red;">RE</span></a>
+        </div>
+        <div class="items">
+            <a href="../index.html" class="active">Home</a>
+            <a href="aboutUs.html" class="active">About Us</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="playlists.html" class="active">PlayLists</a>
+            <a href="chooseSongs.html" class="active">Choose Songs</a>
+        </div>
+        <div id="other">
+            <button id="loginBtn" onclick="myfun()">Log in</button>
+        </div>
+        <div id="logincontainer">
+        </div>  
+    </div>
+    <div class="csNextContent1">
+           <h1 style="color: rgba(14, 1, 1, 0.856); font-weight: 5200;">SELECT YOUR GENRES</h1>
+           <div class="searchBar">
+            <form action="" class="searchbar">
+                <input type="text" placeholder="search tags">
+                <button type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+           
+           </div>
+           <div class="csNextContent11">
+            <button class="tags" value="off">Rock</button>
+            <button class="tags" value="off">Electro</button>
+            <button class="tags" value="off">Pop</button>
+            <button class="tags" value="off">Jazz</button>
+            <button class="tags" value="off">Folk</button>
+            <button class="tags" value="off">Electro</button>
+            <button class="tags" value="off">Hip hop</button>
+            <button class="tags" value="off">Classical</button>
+            <button class="tags" value="off">Rap</button>
+            <button class="tags" value="off">Metal </button>
+             <button class="tags" value="off">Religious</button>
+             <button class="tags" value="off">Soul music</button>
+             <button class="tags" value="off">Instrumental</button>
+             <button class="tags" value="off">Lo-fi</button>
+             <button class="tags" value="off">Beautiful music</button>
+             <button class="tags" value="off">genre 1</button>
+             <button class="tags" value="off">Light music</button>
+             <button class="tags" value="off">Romactic</button>
+             <button class="tags" value="off">Sad</button>
+           </div>
+           <button type="submit" class="getSongs" onclick="showSongs()">Get Songs</button>
+           
+    </div>
+    <div class="csNextContent2" id="csNextContent2">
+        <div class="player-box">
+            <div class="player-box1">
+                    <img src="images/songs/1.jpg" >
+            </div>
+            <div class="player-box2">
+                <div class="player-box21">
+                      <p>Song Name 1</p>
+                      <p>artist name 1</p>
+                </div>
+                <div class="player-box22">
+                    <img src="images/icons/back.png" >
+                    <div class="playbtn">
+                        <img src="images/icons/play.png"  style="width: 20px; height: 20px;">
+                    </div>
+
+                   
+                    <img src="images/icons/next.png" >
+                </div>
+            </div>
+            <div class="player-box3">
+                <img src="images/icons/p-1.png" >
+                <img src="images/icons/p-2.png" >
+                <img src="images/icons/p-3.png" >
+            </div>
+        </div>
+        <div class="player">
+            <div class="player1">
+                <img src="images/songs/1.jpg" alt="">
+            </div>
+            <div class="player2">
+                <p><h2>Song name 1 </h2><br>artist name 1</p>
+            </div>
+            <div class="player3">
+                  <img src="images/icons/back.png" >
+                  <div class="playbtn">
+                    <img src="images/icons/play.png"  style="width: 20px; height: 20px;">
+                </div>
+                  <img src="images/icons/next.png" >
+                  <hr>
+            </div>
+            <div class="player4">
+                <img src="images/icons/p-1.png" >
+                <img src="images/icons/p-2.png" >
+                <img src="images/icons/p-3.png" >
+            </div>
+        </div>
+        <div class="player">
+            <div class="player1">
+                <img src="images/songs/2.jpg" alt="">
+            </div>
+            <div class="player2">
+                <p><h2>Song name 2 </h2><br>artist name 2</p>
+            </div>
+            <div class="player3">
+                  <img src="images/icons/back.png" >
+                  <div class="playbtn">
+                    <img src="images/icons/play.png"  style="width: 20px; height: 20px;">
+                </div>
+                  <img src="images/icons/next.png" >
+                  <hr>
+            </div>
+            <div class="player4">
+                <img src="images/icons/p-1.png" >
+                <img src="images/icons/p-2.png" >
+                <img src="images/icons/p-3.png" >
+            </div>
+        </div>
+        <div class="player">
+            <div class="player1">
+                <img src="images/songs/3.jpg" alt="">
+            </div>
+            <div class="player2">
+                <p><h2>Song name 3 </h2><br>artist name 3</p>
+            </div>
+            <div class="player3">
+                  <img src="images/icons/back.png" >
+                  <div class="playbtn">
+                    <img src="images/icons/play.png"  style="width: 20px; height: 20px;">
+                </div>
+                  <img src="images/icons/next.png" >
+                  <hr>
+            </div>
+            <div class="player4">
+                <img src="images/icons/p-1.png" >
+                <img src="images/icons/p-2.png" >
+                <img src="images/icons/p-3.png" >
+            </div>
+        </div>
+        <div class="player">
+            <div class="player1">
+                <img src="images/songs/4.jpg" alt="">
+            </div>
+            <div class="player2">
+                <p><h2>Song name 4 </h2><br>artist name 4</p>
+            </div>
+            <div class="player3">
+                  <img src="images/icons/back.png" >
+                  <div class="playbtn">
+                    <img src="images/icons/play.png"  style="width: 20px; height: 20px;">
+                </div>
+                  <img src="images/icons/next.png" >
+                  <hr>
+            </div>
+            <div class="player4">
+                <img src="images/icons/p-1.png" >
+                <img src="images/icons/p-2.png" >
+                <img src="images/icons/p-3.png" >
+            </div>
+        </div>
+    </div>
+    <div class="nextContent5">
+        <div class="nextContent51">
+            <h2>MU<span>RE</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odit quisquam quo itaque nulla rem culpa, tenetur qui  perferendis harum earum.</p>
+            <div class="socialLinks">
+                <img src="images/5282544_camera_instagram_social media_social network_instagram logo_icon.png">
+                <img src="images/5282545_pin_pinterest_inspiration_pinterest logo_icon.png">
+                <img src="images/5282548_play_player_video_youtube_youtuble logo_icon.png">
+                <img src="images/5282551_tweet_twitter_twitter logo_icon.png">
+            </div>
+        </div>
+        <div class="nextContent52">
+            <div class="aboutus">
+                <p><span style="color: rgb(250, 11, 11); font-size: 25px; font-weight: bolder;">About Us</span><br><br>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam vitae sint quam corporis labore, pariatur molestias placeat dolor vel culpa reprehenderit
+                </p>
+            </div>
+            <div class="contactus">
+                <p><span style="color:#ff0000; font-size: 25px; font-weight: bolder;">Contact Us</span><br><br>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam vitae sint quam corporis labore, pariatur molestias placeat dolor veculpareprehenderit
+               </p>
+            </div> 
+        </div>
+
+    </div>
+</body>
+</html>
