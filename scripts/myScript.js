@@ -16,7 +16,7 @@ function showSongs(){
     });
     console.log("block");
 }
-
+ 
 
 
 function PLSongs(){
@@ -28,3 +28,36 @@ function PLSongs(){
     console.log("block");
 }
 
+function selected(event){
+    let buttonId = event.target.id;
+    console.log("buttonId="+buttonId);
+    console.log("class name="+event.target.className);
+    let ele = document.getElementById(buttonId);
+    console.log("button status"+ele.value);
+    if(ele.className=="tags"){
+        ele.className = "selected";
+    }
+    else{
+        ele.className = "tags";
+    }
+    
+}
+
+var isplay = false;
+var song = new Audio();
+song.src = "../media/Beautiful Piano Music, Vol. 1 _ Relaxing Music for Studying, Relaxation or Sleeping.mp3";
+function playSong(){
+    let ele = document.getElementById("playbtn");
+   
+    
+    console.log("song");
+    
+    if(!song.paused){
+        song.pause();
+        ele.children[0].src = "../images/icons/play.png";
+    }
+    else{
+        song.play();
+        ele.children[0].src = "../images/icons/pause.png";
+    }
+}
