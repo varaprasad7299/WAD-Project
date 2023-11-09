@@ -83,11 +83,26 @@
     border: solid 3px;
     border-radius: 25px;
     font-size: 20px;
+   
 }
 .tags:hover{
     background-color: rgb(77, 9, 123);
     border: solid 3px rgb(42, 73, 53);
     color: azure;
+    transition-duration: 0.7s;
+}
+/* selected tag css */
+.csNextContent11 .selected{
+    width:max-content;
+    height: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 0, 0);
+    border: solid 3px rgb(42, 73, 53);
+    color: azure;
+    border-radius: 25px;
+    font-size: 20px;
     transition-duration: 0.7s;
 }
 .getSongs{
@@ -176,7 +191,7 @@
     
 }
 .player-box22 img{
-    margin-left: 37px;
+    margin-left: 34px;
     width: 20px;
     height: 20px;
 }
