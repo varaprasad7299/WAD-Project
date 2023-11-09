@@ -45,7 +45,7 @@ function selected(event){
 
 var isplay = false;
 var song = new Audio();
-song.src = "../media/Beautiful Piano Music, Vol. 1 _ Relaxing Music for Studying, Relaxation or Sleeping.mp3";
+song.src = "../media/Attack on Titan - Guren no Yumiya 【English Dub Cover】Opening Song by NateWantsToBattle.mp3";
 function playSong(){
     let ele = document.getElementById("playbtn");
    
