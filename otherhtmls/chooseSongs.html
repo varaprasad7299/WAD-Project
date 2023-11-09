@@ -68,26 +68,26 @@
             </form>
            
            </div>
-           <div class="csNextContent11">
-            <button class="tags" value="off">Rock</button>
-            <button class="tags" value="off">Electro</button>
-            <button class="tags" value="off">Pop</button>
-            <button class="tags" value="off">Jazz</button>
-            <button class="tags" value="off">Folk</button>
-            <button class="tags" value="off">Electro</button>
-            <button class="tags" value="off">Hip hop</button>
-            <button class="tags" value="off">Classical</button>
-            <button class="tags" value="off">Rap</button>
-            <button class="tags" value="off">Metal </button>
-             <button class="tags" value="off">Religious</button>
-             <button class="tags" value="off">Soul music</button>
-             <button class="tags" value="off">Instrumental</button>
-             <button class="tags" value="off">Lo-fi</button>
-             <button class="tags" value="off">Beautiful music</button>
-             <button class="tags" value="off">genre 1</button>
-             <button class="tags" value="off">Light music</button>
-             <button class="tags" value="off">Romactic</button>
-             <button class="tags" value="off">Sad</button>
+           <div class="csNextContent11" id="csNextContent11">
+                <button class="tags" id="Rock" value="off" onclick="selected(event)">Rock</button>
+                <button class="tags" id="Electro" value="off" onclick="selected(event)">Electro</button>
+                <button class="tags" id="Pop" value="off" onclick="selected(event)">Pop</button>
+                <button class="tags" id="Jazz" value="off" onclick="selected(event)">Jazz</button>
+                <button class="tags" id="Folk" value="off"  onclick="selected(event)">Folk</button>
+                <button class="tags" id="Electric" value="off" onclick="selected(event)">Electric</button>
+                <button class="tags" id="Hip hop" value="off" onclick="selected(event)">Hip hop</button>
+                <button class="tags" id="Classical" value="off" onclick="selected(event)">Classical</button>
+                <button class="tags" id="Rap" value="off" onclick="selected(event)">Rap</button>
+                <button class="tags" id="Metal" value="off" onclick="selected(event)">Metal </button>
+                <button class="tags" id="Religious" value="off" onclick="selected(event)">Religious</button>
+                <button class="tags" id="Soul music" value="off" onclick="selected(event)">Soul music</button>
+                <button class="tags" id="Instrumental" value="off" onclick="selected(event)">Instrumental</button>
+                <button class="tags" id="Lo-fi" value="off" onclick="selected(event)">Lo-fi</button>
+                <button class="tags" id="Beautiful music" value="off" onclick="selected(event)">Beautiful music</button>
+                <button class="tags" id="Musical" value="off" onclick="selected(event)">Musical</button>
+                <button class="tags" id="Light music" value="off" onclick="selected(event)">Light music</button>
+                <button class="tags" id="Romactic" value="off" onclick="selected(event)">Romactic</button>
+                <button class="tags" id="Sad" value="off" onclick="selected(event)">Sad</button>
            </div>
            <button type="submit" class="getSongs" onclick="showSongs()">Get Songs</button>
            
@@ -104,7 +104,7 @@
                 </div>
                 <div class="player-box22">
                     <img src="../images/icons/back.png" >
-                    <div class="playbtn">
+                    <div class="playbtn" id="playbtn" onclick="playSong()">
                         <img src="../images/icons/play.png"  style="width: 20px; height: 20px;">
                     </div>
 
@@ -123,7 +123,7 @@
                 <img src="../images/songs/1.jpg" alt="">
             </div>
             <div class="player2">
-                <p><h2>Song name 1</h2><br>artist name 1</p>
+                <p><h2>Song name 2</h2><br>artist name 1</p>
             </div>
             <div class="player3">
                   <img src="../images/icons/back.png" >
@@ -144,7 +144,7 @@
                 <img src="../images/songs/2.jpg" alt="">
             </div>
             <div class="player2">
-                <p><h2>Song name 2 </h2><br>artist name 2</p>
+                <p><h2>Song name 3 </h2><br>artist name 2</p>
             </div>
             <div class="player3">
                   <img src="../images/icons/back.png" >
@@ -165,7 +165,7 @@
                 <img src="../images/songs/3.jpg" alt="">
             </div>
             <div class="player2">
-                <p><h2>Song name 3 </h2><br>artist name 3</p>
+                <p><h2>Song name 4 </h2><br>artist name 3</p>
             </div>
             <div class="player3">
                   <img src="../images/icons/back.png" >
@@ -186,7 +186,7 @@
                 <img src="../images/songs/4.jpg" alt="">
             </div>
             <div class="player2">
-                <p><h2>Song name 4 </h2><br>artist name 4</p>
+                <p><h2>Song name 5 </h2><br>artist name 4</p>
             </div>
             <div class="player3">
                   <img src="../images/icons/back.png" >
