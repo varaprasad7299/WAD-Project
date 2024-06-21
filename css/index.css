@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
+.main {
+  margin-top: 3rem;
+  padding: 3rem 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.startText {
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  padding: 1.5rem;
+  height: 200px;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: aliceblue;
+  font-size: 1.5rem;
+  button {
+    outline: none;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding: 0.2rem 1rem;
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  .steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0rem 1rem;
+    p {
+      margin-top: 1.5rem;
+
+      h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

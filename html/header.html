@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="../css/header.css" />
+<header class="header">
+  <div class="logo-container">
+    <img src="../images/logoIcon.svg" alt="" />
+    <a href="../index.html" class="Logo">MURE</a>
+    <img src="../images/menuIcon.svg" alt="Menu Icon" id="menuIcon" />
+  </div>
+  <div class="nav-pages">
+    <a href="#">Get Songs</a>
+    <a href="#">Playlists</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Login</a>
+  </div>
+</header>
+<script>
+  console.log("hello world");
+
+  document.getElementById("menuIcon").addEventListener("click", showMenu);
+
+  function showMenu() {
+    const navPages = document.querySelector(".nav-pages");
+    const menuIcon = document.querySelector("#menuIcon");
+    const icon1 = "../images/menuIcon.svg";
+    const icon2 = "../images/menuIcon2.svg";
+    if (navPages.style.display === "flex") {
+      navPages.style.display = "none";
+      menuIcon.src = icon1;
+    } else {
+      navPages.style.display = "flex";
+      menuIcon.src = icon2;
+    }
+  }
+</script>
