@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
+
+.main {
+  margin-top: 3rem;
+  padding: 3rem 1rem;
+  position: relative;
+  width: 100%;
+}

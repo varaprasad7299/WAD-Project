@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/getSongs.css" />
+    <link rel="icon" href="../images/favicon.svg" type="image/svg+xml" />
+    <title>Get Songs</title>
+  </head>
+  <body>
+    <div id="header-container"></div>
+    <div class="main">
+      <div class="search-box">
+        <h2 class="search-tags">Search Tags:</h2>
+        <div class="input-box">
+          <div class="input-bar">
+            <img src="../images/searchIcon.svg" alt="" />
+            <input
+              type="text"
+              placeholder="search"
+              name="searchTags"
+              id="searchTags"
+            />
+          </div>
+          <div class="search-filter display"></div>
+        </div>
+        <div class="tag-list-box">
+          <h3>Selected Tags:</h3>
+          <div class="selected-list"></div>
+          <hr />
+          <h3>Select Tags:</h3>
+          <div class="list"></div>
+          <button class="getSongsBtn">Get Songs</button>
+        </div>
+      </div>
+      <div class="songs-box">
+        <div class="player-box"></div>
+        <div class="song-list-box"></div>
+      </div>
+    </div>
+    <div id="footer-container"></div>
+    <script defer src="../scripts/header-footer.js"></script>
+    <script src="../scripts/getSongs.js"></script>
+  </body>
+</html>
